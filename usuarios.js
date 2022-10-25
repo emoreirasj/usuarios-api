@@ -9,7 +9,7 @@ let usuários = require('./database/users.json');
 
 
 
-//Aluno 3 - Responsável por criar a função de listar todos os usuários inserindo mais uma informação para cada de ativo: true
+//Rubio - Rubio01 - Aluno 3 - Responsável por criar a função de listar todos os usuários inserindo mais uma informação para cada de ativo: true
 
 
 
@@ -20,8 +20,4 @@ let usuários = require('./database/users.json');
 
 //Aluno 5- Responsável por criar a função de remover um usuário
 
-const removerUsuario = (codigo, callback) => {
-    let callback = callback(codigo);
-
-    
-}
+const removerUsuario = () =>{}
