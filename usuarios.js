@@ -1,4 +1,5 @@
 //Grupo 8
+let usuários = require('./database/users.json');
 
 //Edson - emoreirasj - Aluno 1- Responsável por criar o projeto no git e dar acesso aos outros
 
@@ -18,3 +19,9 @@
 
 
 //Aluno 5- Responsável por criar a função de remover um usuário
+
+const removerUsuario = (codigo, callback) => {
+    let callback = callback(codigo);
+
+    
+}
