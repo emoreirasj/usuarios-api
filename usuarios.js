@@ -10,8 +10,8 @@ let usuários = require('./database/users.json');
 
 
 //Rubio - Rubio01 - Aluno 3 - Responsável por criar a função de listar todos os usuários inserindo mais uma informação para cada de ativo: true
-
-
+AdicionarPropriedade =(usuarios)=> console.log(usuarios.map((usuario)=>({...usuario, ativo:'true'})))
+AdicionarPropriedade(usuários)
 
 //Luiz - luizngustavo -  Aluno 4 - Responsável por criar a função de adicionar um usuário
 
